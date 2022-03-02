@@ -1,7 +1,7 @@
 export const apiRequest = async function (endpoint) {
 	return await fetch('https://api.figma.com/v1' + endpoint, {
 		method: 'GET',
-		headers: { 'x-figma-token': '42909-59b7407f-9d5d-4efc-bbbe-1980e8e471a3' },
+		headers: { 'x-figma-token': '334391-0f3a8f2f-76ae-44f8-bf53-96a2128e29a5' },
 	})
 		.then((response) => {
 			return response.json();
